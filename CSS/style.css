@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    margin-top: 100px;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: antiquewhite;
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.container>img{
+    height: 100%;
+    width: 100%;
+}
+.imageTwo{
+    grid-row: span 2;
+}
+.grid-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.second{
+    margin-top: 100px;
+}
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.gallary img{
+    width: 100%;
+    height: 100%;
+}
+.secondImage{
+    grid-row: span 2;
+}
